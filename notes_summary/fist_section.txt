@@ -1,0 +1,46 @@
+Notes & Section Summary for section 1:+
+
+What is Python:
+Python is a widely used high-level, general-purpose, interpreted,dynamic programming language Python is founded by Guido van Rossum is a Dutch programmer who is best known as the author of the Python programming language.+
+
+Hello world program in Python:
+The print function in Python allows us to print/display some text as the output.The simple line of code to display hello world is: print(‘Hello World’).+
+
+You can use the general-purpose Python console to write Python code or you can use any IDE, which stands for Integrated Development Environment. PyCharm is the IDE which we have used in the course but you can use any IDE which supports Python.+
+
+Mathematical operations in Python.+
+
+We can perform mathematical operations like addition, subtraction, multiplication and division in Python. We can also perform some other operations like calculating exponent of any number. For example, to calculate square of number ‘4’ we could type in 4**2 i.e 4 raised to power 2. Which is essentially calculating square of 4. In this manner we could calculate the exponent of any number. On similar terms, we could also calculate the square root of any number example 49**(1/2) which will give you the square root of number 49.+
+
+Strings in Python
+Strings are among the most popular types in Python. We can create them simply by enclosing characters in quotes. Python treats single quotes the same as double quotes. Creating strings is as simple as assigning a value to a variable.+
+
+For example
+var1 = ‘Hello World!’
+var2 = “Python Programming”+
+
+Accepting user input in Python 2
+There are hardly any programs without any input.in most cases the input stems from the keyboard. For this purpose, Python provides the function input(). input has an optional parameter, which is the prompt string.
+If the input function is called, the program flow will be stopped until the user has given an input and has ended the input with the return key. The text of the optional parameter, i.e. the prompt, will be printed on the screen.+
+
+The input of the user will be interpreted. If the user e.g. puts in an integer value, the input function returns this integer value. If the user on the other hand inputs a list,
+the function will return a list.
+Accepting user input in Python 3+
+
+If the input function is called, the program flow will be stopped until the user has given an input and has ended the input with the return key. The text of the optional parameter, i.e. the prompt, will be printed on the screen.+
+
+The input of the user will be returned as a string without any changes.If this raw input has to be transformed into another data type needed by the algorithm, we can use casting function.+
+
+Variables in Python
+Variables are nothing but reserved memory locations to store values. This means that when you create a variable you reserve some space in memory.+
+
+Based on the data type of a variable, the interpreter allocates memory and decides what can be stored in the reserved memory. Therefore, by assigning different data types to variables, you can store integers, decimals or characters in these variables. Python variables do not need explicit declaration to reserve memory space.
+The declaration happens automatically when you assign a value to a variable.  The equal sign (=) is used to assign values to variables.+
+
+The operand to the left of the = operator is the name of the variable and the operand to the right of the = operator is the value stored in the variable. Python has five standard data types −+
+
+    Numbers
+    String
+    List
+    Tuple
+    Dictionary
